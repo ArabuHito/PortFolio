@@ -6,6 +6,18 @@
     padding: 10px 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-left,
+    .navbar-right {
+        justify-content: center;
+        margin: 10px 0;
+    }
+}
+
 .navbar-left {
     display: flex;
     align-items: center;
