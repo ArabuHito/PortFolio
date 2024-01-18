@@ -1,0 +1,38 @@
+.carousel-root{
+    margin-bottom: 200px;
+}
+
+.carousel-content {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: var(--accent);
+}
+
+.carousel .slide {
+    background: var(--accent)
+}
+
+.carousel .control-arrow:hover {
+    background: rgba(0,0,0,0.2);
+}
+
+.carousel .thumbs-wrapper {
+    display:none;
+}
+
+.carousel .thumb {
+    border: 1px solid #ccc;
+}
+
+.project-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.project-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}

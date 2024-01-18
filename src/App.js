@@ -2,6 +2,7 @@ import './App.css';
 import {Navbar} from './component/Navbar.js';
 import {Greeting} from './component/Greeting.js';
 import {SpotifyEmbed} from "./component/SpotifyEmbed";
+import {ProjectCarousel} from "./component/Carousel.js";
 
 function App() {
     SetDarkMode(true);
@@ -9,6 +10,7 @@ function App() {
         <div className="App">
             <Navbar/>
             <Greeting/>
+            <ProjectCarousel/>
             <SpotifyEmbed
                 content={"<iframe style=\"border-radius:12px\"" +
                     " src=\"https://open.spotify.com/embed/playlist/2gVDoKFRSm0B44TJ4rk1Im?utm_source=generator\"" +

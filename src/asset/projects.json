@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "name": "Drone FPV",
+      "description": "Drone FPV avec caméra embarquée, construit de A à Z",
+      "video": "https://www.youtube.com/embed/mnk3LmBzpfE?si=5oVghDWiESv1Par4",
+      "alt": "Drone FPV"
+    },
+    {
+      "name": "Site du Répare-café",
+      "description": "Site web du Répare-café de Arles",
+      "image": "/asset/image/cafetiere.jpg",
+      "alt": "Site du Répare-café"
+    },
+    {
+      "name": "X8-VR",
+      "description": "Traduction du jeu X8-VR en français",
+      "image": "/asset/image/x8vr.png",
+      "alt": "X8-VR"
+    },
+    {
+      "name": "Spotify Sum-up",
+      "description": "Application web permettant de résumer les musiques écoutées sur Spotify",
+      "image": "/asset/image/spsu.png",
+      "alt": "Spotify Sum-up"
+    }
+  ]
+}
