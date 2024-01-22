@@ -14,7 +14,7 @@ export class ProjectCarousel extends React.Component {
                     return (
                         <div className="carousel-content">
                             {project.video ? (
-                                <iframe
+                                <iframe className="project-image"
                                     width="560"
                                     height="600"
                                     src={project.video}

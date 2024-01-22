@@ -9,8 +9,16 @@
     background: var(--accent);
 }
 
+.carousel .slide iframe {
+    margin : 40px 40px 0 40px;
+}
+
 .carousel .slide {
     background: var(--accent)
+}
+
+.control-dots{
+    margin-top: 800px;
 }
 
 .carousel .control-arrow:hover {
@@ -29,6 +37,11 @@
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
+}
+
+.project-image {
+    height: 600px;
+    object-fit: scale-down;
 }
 
 .project-description{
