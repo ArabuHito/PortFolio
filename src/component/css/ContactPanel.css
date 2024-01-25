@@ -1,0 +1,34 @@
+.contact-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.svg-icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    fill: var(--text);
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.close-contact-panel {
+    border: none;
+    background: none;
+    transition: 0.2s ease;
+}
+
+.close-contact-panel:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
